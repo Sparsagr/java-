@@ -1,0 +1,33 @@
+import java.util.Random;
+public class random_number {
+    public static void main(String[] args){
+        Random rn=  new Random();
+        int a= rn.nextInt();
+        int b= rn.nextInt();
+        System.out.println("random integer numbers:-");
+        System.out.println(a);
+        System.out.println(b);
+        double c= rn.nextDouble();
+        double d= rn.nextDouble();
+        System.out.println("random double numbers:-");
+        System.out.println(c);
+        System.out.println(d);
+        float e= rn.nextFloat();
+        float f= rn.nextFloat();
+        System.out.println("random floating values:-");
+        System.out.println(e);
+        System.out.println(f);
+        long g= rn.nextLong();
+        long h= rn.nextLong();
+        System.out.println("random long numbers:-");
+        System.out.println(g);
+        System.out.println(h);
+        boolean i=rn.nextBoolean();
+        boolean j= rn.nextBoolean();
+        System.out.println("Random boolean numbers:-");
+        System.out.println(i);
+        System.out.println(j);
+
+
+    }
+}
