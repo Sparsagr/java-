@@ -1,0 +1,9 @@
+import java.util.*;
+public class STRING_INPUT {
+    public static void main(String args[]){
+        String firstname = "sparsh";
+        System.out.println(firstname);
+
+    }
+}
+
