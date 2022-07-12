@@ -1,0 +1,14 @@
+public class string_comparison {
+    public static void main(String args[]){
+        String name1 = "sparry";
+        String name2 = "sparry";
+        if(name1.compareTo(name2)==0)
+        {
+            System.out.println("the string values are equal");
+        }
+        else
+        {
+            System.out.println("the string values are not equal");
+        }
+    }
+}
