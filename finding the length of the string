@@ -1,0 +1,11 @@
+import java.util.*;
+public class string_length {
+    public static void main(String args[]){
+        String firstname = "sparsh";
+        String secondname = "agarwal";
+        String fullname = firstname + " " + secondname;
+        System.out.println(fullname.length());
+
+    }
+}
+
