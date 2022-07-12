@@ -1,0 +1,8 @@
+public class string_substring {
+    public static void main(String args[]){
+        String sentence = "my name is captain sparrow";
+        String name = sentence.substring(11);
+        System.out.println(name);
+    }
+}
+
