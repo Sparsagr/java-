@@ -1,0 +1,9 @@
+import java.util.*;
+public class string_concatenation {
+    public static void main(String args[]){
+        String firstname = "sparsh";
+        String secondname = "agarwal";
+        System.out.println(firstname + " " + secondname);
+
+    }
+}
